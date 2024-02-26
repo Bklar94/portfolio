@@ -1,23 +1,21 @@
 "use client"
 import {
   NavigationMenu,
-  NavigationMenuContent,
-  NavigationMenuIndicator,
   NavigationMenuItem,
   NavigationMenuLink,
   NavigationMenuList,
-  NavigationMenuTrigger,
-  NavigationMenuViewport,
 } from "@/components/ui/navigation-menu"
 import Image from "next/image";
 import { Fredoka, Roboto } from "next/font/google";
 import { cn } from "@/lib/utils"
 import { FaJava, FaNode, FaLinux } from "react-icons/fa";
 import { DiAngularSimple } from "react-icons/di";
-import { FaGitAlt } from "react-icons/fa6";
+import { FaGitAlt, FaL } from "react-icons/fa6";
 import { SiNextdotjs, SiGodotengine } from "react-icons/si";
 import { IoLogoJavascript } from "react-icons/io";
 import { ContactForm } from "@/components/auth/contact-form";
+import { FaLinkedin } from "react-icons/fa";
+import Link from "next/link";
 
 
 const font = Fredoka({
@@ -38,6 +36,7 @@ export default function Home() {
       <div className="md:h-[510px] md:w-[500px] md:absolute md:bg-[#4056A1] md:-translate-x-72 md:-translate-y-72 md:rotate-[-45deg] h-[300px] w-[300px] absolute bg-[#4056A1] -translate-x-40 -translate-y-40 rotate-[-45deg]">
         <p className={cn("md:absolute md:bottom-0 md:right-[35%] md:font-semibold md:text-4xl text-[#F3F0EB] absolute bottom-0 right-[38%] text-2xl", roboto.className)}>Branimir</p>
       </div>
+      <Link href={"https://www.linkedin.com/in/branimir-klaričić-500025284"} className="absolute right-0 m-4"><FaLinkedin style={style} size={30}/></Link>
       <div className="h-20 md:flex md:items-center md:justify-center flex justify-center pt-4">
         <NavigationMenu className="text-slate-600 font-semibold">
           <NavigationMenuList className="md:gap-24 flex flex-col gap-1 md:flex md:flex-row">
