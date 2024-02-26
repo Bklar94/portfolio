@@ -54,7 +54,7 @@ export default function Home() {
         </NavigationMenu>
       </div>
       <div className="h-fit md:flex md:flex-row md:items-center md:justify-around flex flex-col justify-center items-center px-40 mt-8 md:mt-0">
-        <Image src={"/branimir.png"} width={155} height={140} alt="Me" className="rounded-full mb-2 hover:animate-ping"/>
+        <Image src={"/branimir.png"} width={155} height={140} alt="Me" className="rounded-full mb-2"/>
         <div className={cn("text-center md:text-pretty md:max-w-[40%] text-slate-600 min-w-64 my-4", font.className)}>
         <h1 className={cn("text-4xl mb-10", roboto.className)}>Hi, my name is Branimir</h1>
         <p className="text-lg">Software developer passionate for turning a world into a better place using the best form of art, the art of code!</p>
@@ -87,7 +87,10 @@ export default function Home() {
         </div>
       </div>
 
-      <div className="flex justify-center h-fit md:px-40 my-4 ">
+      <div className="flex flex-col gap-6 items-center justify-center h-fit md:px-40 my-4 ">
+        <h3 className="font-bold text-4xl">Let&apos;s connect</h3>
+        <p className="max-w-96 text-slate-800 text-center text-md">I&apos;m always on the lookout for new opportunities to collaborate and create something extraordinary. Whether you&apos;re interested in discussing a potential project, need help with your personal project, need a website for your business, don&apos;t hesitate to reach out!
+        Thanks for stopping by, and I look forward to connecting with you soon.</p>
         <ContactForm/>
       </div>
       <footer className="flex flex-row-reverse items-end h-fit px-4 text-slate-600 ">

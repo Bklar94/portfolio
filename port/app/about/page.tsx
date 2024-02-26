@@ -45,8 +45,9 @@ const AboutPage = () => {
       </div>
 
 
-      <div className="container md:flex md:items-center md:justify-center flex justify-center pt-4 mt-28">
-        Lorem ipsum, dolor sit amet consectetur adipisicing elit. Debitis, nulla id sint velit assumenda quia nostrum nobis, nesciunt natus deleniti modi. Voluptate ad neque vitae dolorem qui dignissimos, inventore veniam? Lorem ipsum, dolor sit amet consectetur adipisicing elit. Illum, ratione deleniti nulla accusantium nobis, itaque cum repellat hic natus numquam harum. Placeat fuga obcaecati praesentium accusantium accusamus eos! Reprehenderit, minima.
+      <div className="container md:flex md:items-center md:justify-center md:flex-col gap-10 flex flex-col justify-center pt-4 my-20">
+        <p className="text-lg text-slate-700 text-center">A software developer with a passion for exploration 🌍, competition 🏆, and digital adventures 💻. Welcome to my corner of the web!</p>
+        <p className="text-lg text-slate-700 max-w-7xl text-center">Through my work as a software developer, I aim to channel my passions into creating meaningful experiences and solutions. Whether I&apos;m crafting compelling narratives, designing engaging experiences, or tackling complex problems, my diverse interests inform and inspire my creative approach.</p>
       </div>
 
       <div className="container bg-white shadow-lg py-10 rounded-xl my-4">
@@ -72,21 +73,35 @@ const AboutPage = () => {
         <ol className="relative border-s border-[#4056A1] bg-">                  
             <li className="mb-10 ms-4">
                 <div className="absolute w-3 h-3 bg-[#4056A1] rounded-full mt-1.5 -start-1.5 border border-[#4056A1]"></div>
-                <time className="mb-1 text-sm font-normal leading-none text-gray-400">February 2022</time>
-                <h3 className="text-lg font-semibold text-gray-900">Application UI code in Tailwind CSS</h3>
-                <p className="mb-4 text-base font-normal text-slate-600">Get access to over 20+ pages including a dashboard layout, charts, kanban board, calendar, and pre-order E-commerce & Marketing pages.</p>
+                <time className="mb-1 text-sm font-normal leading-none text-gray-400">Summer seasons 2015-2019</time>
+                <h3 className="text-lg font-semibold text-gray-900">Bellhop/Driver/Receptionist</h3>
+                <ul className="mb-4 text-base font-normal text-slate-600">
+                  <li>Assisting with luggage and escorting guests to their rooms. Occasionally serving as a concierge or a receptionist. </li>
+                  <li>Driving a van with luggage and guests to the hotel.</li>
+                  <li>Checking in and checking out guests. Receiving and addressing guest complaints Utilizing hotel software Diventa Collaborating with other hotel departments</li>
+                </ul>
             </li>
             <li className="mb-10 ms-4">
                 <div className="absolute w-3 h-3 bg-[#4056A1] rounded-full mt-1.5 -start-1.5 border border-[#4056A1]"></div>
-                <time className="mb-1 text-sm font-normal leading-none text-gray-400">March 2022</time>
-                <h3 className="text-lg font-semibold text-gray-900">Marketing UI design in Figma</h3>
-                <p className="text-base font-normal text-slate-600">All of the pages and components are first designed in Figma and we keep a parity between the two versions even as we update the project.</p>
+                <time className="mb-1 text-sm font-normal leading-none text-gray-400">March 2020 - March 2022</time>
+                <h3 className="text-lg font-semibold text-gray-900">Audio video techician at Hrvatska radio televizija</h3>
+                <ul className="mb-4 text-base font-normal text-slate-600">
+                  <li>Quality control of all audio and video products that are imported to the television server</li>
+                  <li>Maintenance of television servers</li>
+                  <li>Checking new material before sending them to live television</li>
+                  <li>Recording TV shows like : Chase, Who wants to be a millionaire, etc..</li>
+                  <li>Working with a lot of people and a lot of teams simultaneously</li>
+                </ul>
             </li>
             <li className="ms-4">
                 <div className="absolute w-3 h-3 bg-[#4056A1] rounded-full mt-1.5 -start-1.5 border border-[#4056A1]"></div>
-                <time className="mb-1 text-sm font-normal leading-none text-gray-400">April 2022</time>
-                <h3 className="text-lg font-semibold text-gray-900">E-Commerce UI code in Tailwind CSS</h3>
-                <p className="text-base font-normal text-slate-600">Get started with dozens of web components and interactive elements built on top of Tailwind CSS.</p>
+                <time className="mb-1 text-sm font-normal leading-none text-gray-400">March 2022 - present</time>
+                <h3 className="text-lg font-semibold text-gray-900">Java software developer</h3>
+                <ul className="mb-4 text-base font-normal text-slate-600">
+                  <li>Developing and testing automation of upgrade of radio tower software on 5g networks</li>
+                  <li>Writing and assessing code impact for new features</li>
+                  <li>Writing clean and reusable code</li>
+                </ul>
             </li>
         </ol>
       </div>
