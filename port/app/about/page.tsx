@@ -21,10 +21,10 @@ const AboutPage = () => {
 
     return ( 
         <main className="h-screen">
-      <div className="md:h-[510px] md:w-[500px] md:absolute md:bg-[#4056A1] md:-translate-x-72 md:-translate-y-72 md:rotate-[-45deg] h-[300px] w-[300px] absolute bg-[#4056A1] -translate-x-40 -translate-y-40 rotate-[-45deg]">
+      <div className="md:h-[510px] md:w-[500px] md:absolute md:bg-[#4056A1] md:-translate-x-72 md:-translate-y-72 md:rotate-[-45deg] h-[300px] w-[300px] absolute bg-[#4056A1] -translate-x-48 -translate-y-48 rotate-[-45deg]">
         <p className={cn("md:absolute md:bottom-0 md:right-[35%] md:font-semibold md:text-4xl text-[#F3F0EB] absolute bottom-0 right-[38%] text-2xl", roboto.className)}>Branimir</p>
       </div>
-      <div className="h-20 md:flex md:items-center md:justify-center flex justify-center pt-4">
+      <div className="h-20 md:flex md:items-center md:justify-center md:pt-4 flex justify-center pt-10">
         <NavigationMenu className="text-slate-600 font-semibold">
           <NavigationMenuList className="md:gap-24 flex flex-col gap-1 md:flex md:flex-row">
             <NavigationMenuItem className="">
@@ -42,8 +42,8 @@ const AboutPage = () => {
 
 
       <div className="container md:flex md:items-center md:justify-center md:flex-col gap-10 flex flex-col justify-center pt-4 my-20">
-        <p className="text-lg text-slate-700 text-center">A software developer with a passion for exploration 🌍, competition 🏆, and digital adventures 💻. Welcome to my corner of the web!</p>
-        <p className="text-lg text-slate-700 max-w-7xl text-center">Through my work as a software developer, I aim to channel my passions into creating meaningful experiences and solutions. Whether I&apos;m crafting compelling narratives, designing engaging experiences, or tackling complex problems, my diverse interests inform and inspire my creative approach.</p>
+        <p className="text-xl text-slate-700 text-center">A software developer with a passion for exploration 🌍, competition 🏆, and digital adventures 💻. Welcome to my corner of the web!</p>
+        <p className="text-xl text-slate-700 max-w-7xl text-center">Through my work as a software developer, I aim to channel my passions into creating meaningful experiences and solutions. Whether I&apos;m crafting compelling narratives, designing engaging experiences, or tackling complex problems, my diverse interests inform and inspire my creative approach.</p>
       </div>
 
       <div className="container bg-white shadow-lg py-10 rounded-xl my-4">
