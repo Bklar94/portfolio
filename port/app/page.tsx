@@ -53,10 +53,10 @@ export default function Home() {
         </NavigationMenu>
       </div>
       <div className="container h-fit md:flex md:flex-row md:items-center md:justify-around flex flex-col justify-center items-center px-40 mt-8 md:mt-0">
-        <Image src={"/branimir.png"} width={155} height={140} alt="Me" className="rounded-full mb-2"/>
+        <Image src={"/branimir.png"} width={155} height={140} alt="Me" className="rounded-full mb-2 max-w-[155px]"/>
         <div className={cn("text-center md:text-pretty md:max-w-[40%] text-slate-600 min-w-64 my-4", font.className)}>
-        <h1 className={cn("text-4xl mb-10", roboto.className)}>Hi, my name is Branimir</h1>
-        <p className="text-lg">Software developer passionate for turning a world into a better place using the best form of art, the art of code!</p>
+          <h1 className={cn("text-4xl mb-10", roboto.className)}>Hi, my name is Branimir</h1>
+          <p className="text-lg">Software developer passionate for turning a world into a better place using the best form of art, the art of code!</p>
         </div>
       </div>
       <div className="h-fit md:flex md:justify-center md:mx-64 md:gap-4 md:items-center flex flex-wrap md:my-10">
